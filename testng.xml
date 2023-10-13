@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="JobbyAppTest5" parallel="classes" thread-count="2">
+    <test name="Sample Test" >
+        <classes>
+            <class name="LoginPageTest" />
+            <class name="HomePageTest" />
+            <class name="JobsPageTest" />
+            <class name="HeaderSectionTest" />
+        </classes>
+    </test>
+</suite>
